@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.cell:hover{
+    background-color: lightgreen;
+    color:black;
+}
+#cell-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#container-jogo{
+    font-family:"Permanent Marker", cursive;
+    text-align: center;
+}
+
+#player1{
+    font-family:"Permanent Marker", cursive;
+    position: absolute;
+    top: 30%;
+    left: 200px;
+    transform: translate(0, -100%);
+}
+#player2{
+    font-family:"Permanent Marker", cursive;
+    position: absolute;
+    top: 30%;
+    right: 200px;
+    transform: translate(0, -100%);
+}
+#restart-btn{
+    font-family:"Permanent Marker", cursive;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid black
+}
+#restart-btn:hover{
+    background-color: #ff2020;
+    color: white;
+}
+
+#ultimoscampeos {
+    font-family:"Permanent Marker", cursive;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    transform: translate(0, -100%);
+}
+
+#topjogadores{
+    font-family:"Permanent Marker", cursive;
+    position: absolute;
+    top: 30%;
+    right: 100px;
+    transform: translate(0, -100%);
+}
+
+#login{
+    width: 100%;
+    margin: 0 auto;
+}
+.usuario{
+    font-family:"Permanent Marker", cursive;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    right: 50px;
+}
